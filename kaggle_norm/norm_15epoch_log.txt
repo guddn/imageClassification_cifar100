@@ -1,0 +1,444 @@
+==================================================
+current_batch_size: 2 - group_norm
+==================================================
+  7%|▋         | 1/15 [02:42<37:56, 162.59s/it]
+groupnorm_train_acc:0.1434 groupnorm_test_acc:0.1568
+
+ 13%|█▎        | 2/15 [05:24<35:11, 162.46s/it]
+groupnorm_train_acc:0.1557 groupnorm_test_acc:0.1661
+
+ 20%|██        | 3/15 [08:07<32:28, 162.37s/it]
+groupnorm_train_acc:0.1714 groupnorm_test_acc:0.1701
+
+ 27%|██▋       | 4/15 [10:49<29:44, 162.20s/it]
+groupnorm_train_acc:0.1868 groupnorm_test_acc:0.1875
+
+ 33%|███▎      | 5/15 [13:32<27:05, 162.50s/it]
+groupnorm_train_acc:0.2075 groupnorm_test_acc:0.2180
+
+ 40%|████      | 6/15 [16:14<24:21, 162.35s/it]
+groupnorm_train_acc:0.2259 groupnorm_test_acc:0.2379
+
+ 47%|████▋     | 7/15 [18:57<21:41, 162.65s/it]
+groupnorm_train_acc:0.2488 groupnorm_test_acc:0.2255
+
+ 53%|█████▎    | 8/15 [21:40<18:58, 162.60s/it]
+groupnorm_train_acc:0.2724 groupnorm_test_acc:0.2684
+
+ 60%|██████    | 9/15 [24:21<16:13, 162.22s/it]
+groupnorm_train_acc:0.2990 groupnorm_test_acc:0.2909
+
+ 67%|██████▋   | 10/15 [27:03<13:31, 162.27s/it]
+groupnorm_train_acc:0.3281 groupnorm_test_acc:0.3194
+
+ 73%|███████▎  | 11/15 [29:45<10:48, 162.23s/it]
+groupnorm_train_acc:0.3602 groupnorm_test_acc:0.3202
+
+ 80%|████████  | 12/15 [32:27<08:06, 162.10s/it]
+groupnorm_train_acc:0.4031 groupnorm_test_acc:0.3408
+
+ 87%|████████▋ | 13/15 [35:10<05:24, 162.33s/it]
+groupnorm_train_acc:0.4576 groupnorm_test_acc:0.3652
+
+ 93%|█████████▎| 14/15 [37:53<02:42, 162.43s/it]
+groupnorm_train_acc:0.5200 groupnorm_test_acc:0.3873
+
+100%|██████████| 15/15 [40:34<00:00, 162.33s/it]
+groupnorm_train_acc:0.5786 groupnorm_test_acc:0.4009
+
+==================================================
+current_batch_size: 2 - batch_norm
+==================================================
+  7%|▋         | 1/15 [02:36<36:31, 156.55s/it]
+
+batchnorm_train_acc:0.0449 batchnorm_test_acc:0.0797
+ 13%|█▎        | 2/15 [05:13<33:55, 156.57s/it]
+
+batchnorm_train_acc:0.0961 batchnorm_test_acc:0.1300
+ 20%|██        | 3/15 [07:49<31:19, 156.64s/it]
+
+batchnorm_train_acc:0.1421 batchnorm_test_acc:0.1592
+ 27%|██▋       | 4/15 [10:25<28:40, 156.40s/it]
+
+batchnorm_train_acc:0.1801 batchnorm_test_acc:0.2116
+ 33%|███▎      | 5/15 [13:02<26:03, 156.30s/it]
+
+batchnorm_train_acc:0.2207 batchnorm_test_acc:0.2304
+ 40%|████      | 6/15 [15:38<23:25, 156.22s/it]
+
+batchnorm_train_acc:0.2517 batchnorm_test_acc:0.2678
+ 47%|████▋     | 7/15 [18:14<20:49, 156.16s/it]
+
+batchnorm_train_acc:0.2853 batchnorm_test_acc:0.2918
+ 53%|█████▎    | 8/15 [20:49<18:12, 156.04s/it]
+
+batchnorm_train_acc:0.3129 batchnorm_test_acc:0.3165
+ 60%|██████    | 9/15 [23:25<15:35, 155.95s/it]
+
+batchnorm_train_acc:0.3483 batchnorm_test_acc:0.3462
+ 67%|██████▋   | 10/15 [26:02<13:00, 156.12s/it]
+
+batchnorm_train_acc:0.3855 batchnorm_test_acc:0.3639
+ 73%|███████▎  | 11/15 [28:41<10:28, 157.13s/it]
+
+batchnorm_train_acc:0.4337 batchnorm_test_acc:0.3800
+ 80%|████████  | 12/15 [31:20<07:52, 157.63s/it]
+
+batchnorm_train_acc:0.4823 batchnorm_test_acc:0.4053
+ 87%|████████▋ | 13/15 [34:00<05:16, 158.31s/it]
+
+batchnorm_train_acc:0.5502 batchnorm_test_acc:0.4223
+ 93%|█████████▎| 14/15 [36:36<02:37, 157.82s/it]
+
+batchnorm_train_acc:0.6220 batchnorm_test_acc:0.4401
+100%|██████████| 15/15 [39:13<00:00, 156.93s/it]
+
+batchnorm_train_acc:0.6825 batchnorm_test_acc:0.4493
+==================================================
+current_batch_size: 4 - group_norm
+==================================================
+  7%|▋         | 1/15 [01:35<22:15, 95.42s/it]
+groupnorm_train_acc:0.0660 groupnorm_test_acc:0.1026
+
+ 13%|█▎        | 2/15 [03:11<20:43, 95.68s/it]
+groupnorm_train_acc:0.1344 groupnorm_test_acc:0.1639
+
+ 20%|██        | 3/15 [04:46<19:07, 95.61s/it]
+groupnorm_train_acc:0.1834 groupnorm_test_acc:0.1892
+
+ 27%|██▋       | 4/15 [06:22<17:31, 95.55s/it]
+groupnorm_train_acc:0.2233 groupnorm_test_acc:0.2337
+
+ 33%|███▎      | 5/15 [07:57<15:55, 95.59s/it]
+groupnorm_train_acc:0.2603 groupnorm_test_acc:0.2557
+
+ 40%|████      | 6/15 [09:33<14:21, 95.68s/it]
+groupnorm_train_acc:0.2925 groupnorm_test_acc:0.2790
+
+ 47%|████▋     | 7/15 [11:10<12:47, 95.92s/it]
+groupnorm_train_acc:0.3302 groupnorm_test_acc:0.3019
+
+ 53%|█████▎    | 8/15 [12:45<11:11, 95.87s/it]
+groupnorm_train_acc:0.3675 groupnorm_test_acc:0.3353
+
+ 60%|██████    | 9/15 [14:21<09:35, 95.91s/it]
+groupnorm_train_acc:0.4112 groupnorm_test_acc:0.3445
+
+ 67%|██████▋   | 10/15 [15:57<07:58, 95.79s/it]
+groupnorm_train_acc:0.4657 groupnorm_test_acc:0.3722
+
+ 73%|███████▎  | 11/15 [17:33<06:23, 95.78s/it]
+groupnorm_train_acc:0.5336 groupnorm_test_acc:0.3848
+
+ 80%|████████  | 12/15 [19:10<04:48, 96.15s/it]
+groupnorm_train_acc:0.6248 groupnorm_test_acc:0.3984
+
+ 87%|████████▋ | 13/15 [20:45<03:12, 96.02s/it]
+groupnorm_train_acc:0.7482 groupnorm_test_acc:0.4003
+
+ 93%|█████████▎| 14/15 [22:21<01:35, 95.97s/it]
+groupnorm_train_acc:0.8742 groupnorm_test_acc:0.4055
+
+100%|██████████| 15/15 [23:58<00:00, 95.88s/it]
+groupnorm_train_acc:0.9422 groupnorm_test_acc:0.4074
+
+==================================================
+current_batch_size: 4 - batch_norm
+==================================================
+  7%|▋         | 1/15 [01:32<21:37, 92.68s/it]
+
+batchnorm_train_acc:0.0925 batchnorm_test_acc:0.1720
+ 13%|█▎        | 2/15 [03:05<20:03, 92.60s/it]
+
+batchnorm_train_acc:0.1706 batchnorm_test_acc:0.2335
+ 20%|██        | 3/15 [04:37<18:30, 92.57s/it]
+
+batchnorm_train_acc:0.2270 batchnorm_test_acc:0.2936
+ 27%|██▋       | 4/15 [06:10<17:00, 92.73s/it]
+
+batchnorm_train_acc:0.2751 batchnorm_test_acc:0.3283
+ 33%|███▎      | 5/15 [07:43<15:27, 92.77s/it]
+
+batchnorm_train_acc:0.3203 batchnorm_test_acc:0.3554
+ 40%|████      | 6/15 [09:16<13:54, 92.70s/it]
+
+batchnorm_train_acc:0.3557 batchnorm_test_acc:0.3876
+ 47%|████▋     | 7/15 [10:49<12:23, 92.89s/it]
+
+batchnorm_train_acc:0.3915 batchnorm_test_acc:0.4054
+ 53%|█████▎    | 8/15 [12:22<10:50, 92.87s/it]
+
+batchnorm_train_acc:0.4293 batchnorm_test_acc:0.4303
+ 60%|██████    | 9/15 [13:54<09:16, 92.82s/it]
+
+batchnorm_train_acc:0.4662 batchnorm_test_acc:0.4476
+ 67%|██████▋   | 10/15 [15:27<07:43, 92.78s/it]
+
+batchnorm_train_acc:0.5111 batchnorm_test_acc:0.4491
+ 73%|███████▎  | 11/15 [17:00<06:11, 92.86s/it]
+
+batchnorm_train_acc:0.5671 batchnorm_test_acc:0.4705
+ 80%|████████  | 12/15 [18:33<04:38, 92.71s/it]
+
+batchnorm_train_acc:0.6368 batchnorm_test_acc:0.4755
+ 87%|████████▋ | 13/15 [20:05<03:05, 92.75s/it]
+
+batchnorm_train_acc:0.7124 batchnorm_test_acc:0.4830
+ 93%|█████████▎| 14/15 [21:37<01:32, 92.55s/it]
+
+batchnorm_train_acc:0.7829 batchnorm_test_acc:0.4929
+100%|██████████| 15/15 [23:10<00:00, 92.70s/it]
+
+batchnorm_train_acc:0.8267 batchnorm_test_acc:0.4984
+==================================================
+current_batch_size: 8 - group_norm
+==================================================
+  7%|▋         | 1/15 [01:02<14:31, 62.25s/it]
+groupnorm_train_acc:0.0806 groupnorm_test_acc:0.1225
+
+ 13%|█▎        | 2/15 [02:04<13:29, 62.24s/it]
+groupnorm_train_acc:0.1645 groupnorm_test_acc:0.1791
+
+ 20%|██        | 3/15 [03:06<12:26, 62.24s/it]
+groupnorm_train_acc:0.2211 groupnorm_test_acc:0.2438
+
+ 27%|██▋       | 4/15 [04:09<11:28, 62.58s/it]
+groupnorm_train_acc:0.2672 groupnorm_test_acc:0.2675
+
+ 33%|███▎      | 5/15 [05:12<10:24, 62.48s/it]
+groupnorm_train_acc:0.3090 groupnorm_test_acc:0.3108
+
+ 40%|████      | 6/15 [06:14<09:21, 62.34s/it]
+groupnorm_train_acc:0.3516 groupnorm_test_acc:0.3172
+
+ 47%|████▋     | 7/15 [07:16<08:19, 62.46s/it]
+groupnorm_train_acc:0.3966 groupnorm_test_acc:0.3544
+
+ 53%|█████▎    | 8/15 [08:19<07:17, 62.45s/it]
+groupnorm_train_acc:0.4503 groupnorm_test_acc:0.3650
+
+ 60%|██████    | 9/15 [09:21<06:14, 62.49s/it]
+groupnorm_train_acc:0.5095 groupnorm_test_acc:0.3814
+
+ 67%|██████▋   | 10/15 [10:24<05:12, 62.41s/it]
+groupnorm_train_acc:0.5901 groupnorm_test_acc:0.3862
+
+ 73%|███████▎  | 11/15 [11:26<04:09, 62.34s/it]
+groupnorm_train_acc:0.6857 groupnorm_test_acc:0.3931
+
+ 80%|████████  | 12/15 [12:28<03:07, 62.35s/it]
+groupnorm_train_acc:0.8150 groupnorm_test_acc:0.4051
+
+ 87%|████████▋ | 13/15 [13:30<02:04, 62.26s/it]
+groupnorm_train_acc:0.9291 groupnorm_test_acc:0.4018
+
+ 93%|█████████▎| 14/15 [14:33<01:02, 62.28s/it]
+groupnorm_train_acc:0.9797 groupnorm_test_acc:0.4039
+
+100%|██████████| 15/15 [15:35<00:00, 62.36s/it]
+groupnorm_train_acc:0.9912 groupnorm_test_acc:0.4044
+
+==================================================
+current_batch_size: 8 - batch_norm
+==================================================
+  7%|▋         | 1/15 [01:00<14:13, 60.94s/it]
+
+batchnorm_train_acc:0.1309 batchnorm_test_acc:0.2312
+ 13%|█▎        | 2/15 [02:02<13:15, 61.16s/it]
+
+batchnorm_train_acc:0.2466 batchnorm_test_acc:0.3109
+ 20%|██        | 3/15 [03:03<12:12, 61.06s/it]
+
+batchnorm_train_acc:0.3234 batchnorm_test_acc:0.3671
+ 27%|██▋       | 4/15 [04:04<11:10, 60.98s/it]
+
+batchnorm_train_acc:0.3809 batchnorm_test_acc:0.4070
+ 33%|███▎      | 5/15 [05:04<10:08, 60.88s/it]
+
+batchnorm_train_acc:0.4353 batchnorm_test_acc:0.4327
+ 40%|████      | 6/15 [06:05<09:07, 60.81s/it]
+
+batchnorm_train_acc:0.4779 batchnorm_test_acc:0.4376
+ 47%|████▋     | 7/15 [07:06<08:06, 60.78s/it]
+
+batchnorm_train_acc:0.5216 batchnorm_test_acc:0.4603
+ 53%|█████▎    | 8/15 [08:07<07:06, 60.96s/it]
+
+batchnorm_train_acc:0.5677 batchnorm_test_acc:0.4775
+ 60%|██████    | 9/15 [09:08<06:05, 60.91s/it]
+
+batchnorm_train_acc:0.6285 batchnorm_test_acc:0.4799
+ 67%|██████▋   | 10/15 [10:09<05:04, 60.93s/it]
+
+batchnorm_train_acc:0.6980 batchnorm_test_acc:0.4833
+ 73%|███████▎  | 11/15 [11:10<04:03, 60.89s/it]
+
+batchnorm_train_acc:0.7725 batchnorm_test_acc:0.4988
+ 80%|████████  | 12/15 [12:10<03:02, 60.77s/it]
+
+batchnorm_train_acc:0.8526 batchnorm_test_acc:0.4901
+ 87%|████████▋ | 13/15 [13:11<02:01, 60.82s/it]
+
+batchnorm_train_acc:0.9158 batchnorm_test_acc:0.4980
+ 93%|█████████▎| 14/15 [14:12<01:00, 60.81s/it]
+
+batchnorm_train_acc:0.9477 batchnorm_test_acc:0.4975
+100%|██████████| 15/15 [15:13<00:00, 60.90s/it]
+
+batchnorm_train_acc:0.9599 batchnorm_test_acc:0.4994
+==================================================
+current_batch_size: 16 - group_norm
+==================================================
+  7%|▋         | 1/15 [00:45<10:38, 45.60s/it]
+groupnorm_train_acc:0.0970 groupnorm_test_acc:0.1512
+
+ 13%|█▎        | 2/15 [01:31<09:51, 45.52s/it]
+groupnorm_train_acc:0.1972 groupnorm_test_acc:0.2301
+
+ 20%|██        | 3/15 [02:16<09:05, 45.46s/it]
+groupnorm_train_acc:0.2593 groupnorm_test_acc:0.2759
+
+ 27%|██▋       | 4/15 [03:02<08:21, 45.55s/it]
+groupnorm_train_acc:0.3196 groupnorm_test_acc:0.3020
+
+ 33%|███▎      | 5/15 [03:47<07:35, 45.54s/it]
+groupnorm_train_acc:0.3708 groupnorm_test_acc:0.3417
+
+ 40%|████      | 6/15 [04:33<06:49, 45.54s/it]
+groupnorm_train_acc:0.4220 groupnorm_test_acc:0.3692
+
+ 47%|████▋     | 7/15 [05:18<06:04, 45.51s/it]
+groupnorm_train_acc:0.4786 groupnorm_test_acc:0.3806
+
+ 53%|█████▎    | 8/15 [06:04<05:18, 45.55s/it]
+groupnorm_train_acc:0.5416 groupnorm_test_acc:0.4074
+
+ 60%|██████    | 9/15 [06:49<04:32, 45.50s/it]
+groupnorm_train_acc:0.6162 groupnorm_test_acc:0.4190
+
+ 67%|██████▋   | 10/15 [07:35<03:47, 45.45s/it]
+groupnorm_train_acc:0.7094 groupnorm_test_acc:0.4186
+
+ 73%|███████▎  | 11/15 [08:20<03:01, 45.44s/it]
+groupnorm_train_acc:0.8286 groupnorm_test_acc:0.4217
+
+ 80%|████████  | 12/15 [09:05<02:16, 45.47s/it]
+groupnorm_train_acc:0.9343 groupnorm_test_acc:0.4298
+
+ 87%|████████▋ | 13/15 [09:51<01:31, 45.54s/it]
+groupnorm_train_acc:0.9822 groupnorm_test_acc:0.4335
+
+ 93%|█████████▎| 14/15 [10:36<00:45, 45.47s/it]
+groupnorm_train_acc:0.9939 groupnorm_test_acc:0.4304
+
+100%|██████████| 15/15 [11:22<00:00, 45.48s/it]
+groupnorm_train_acc:0.9966 groupnorm_test_acc:0.4309
+
+==================================================
+current_batch_size: 16 - batch_norm
+==================================================
+  7%|▋         | 1/15 [00:44<10:26, 44.78s/it]
+
+batchnorm_train_acc:0.1545 batchnorm_test_acc:0.2443
+ 13%|█▎        | 2/15 [01:29<09:40, 44.63s/it]
+
+batchnorm_train_acc:0.2893 batchnorm_test_acc:0.3495
+ 20%|██        | 3/15 [02:14<08:56, 44.75s/it]
+
+batchnorm_train_acc:0.3743 batchnorm_test_acc:0.3833
+ 27%|██▋       | 4/15 [02:58<08:12, 44.75s/it]
+
+batchnorm_train_acc:0.4425 batchnorm_test_acc:0.4332
+ 33%|███▎      | 5/15 [03:43<07:28, 44.82s/it]
+
+batchnorm_train_acc:0.5006 batchnorm_test_acc:0.4518
+ 40%|████      | 6/15 [04:28<06:43, 44.86s/it]
+
+batchnorm_train_acc:0.5584 batchnorm_test_acc:0.4537
+ 47%|████▋     | 7/15 [05:13<05:59, 44.91s/it]
+
+batchnorm_train_acc:0.6207 batchnorm_test_acc:0.4662
+ 53%|█████▎    | 8/15 [05:58<05:13, 44.84s/it]
+
+batchnorm_train_acc:0.6921 batchnorm_test_acc:0.4716
+ 60%|██████    | 9/15 [06:43<04:28, 44.79s/it]
+
+batchnorm_train_acc:0.7670 batchnorm_test_acc:0.4769
+ 67%|██████▋   | 10/15 [07:27<03:43, 44.74s/it]
+
+batchnorm_train_acc:0.8531 batchnorm_test_acc:0.4821
+ 73%|███████▎  | 11/15 [08:12<02:58, 44.71s/it]
+
+batchnorm_train_acc:0.9217 batchnorm_test_acc:0.4778
+ 80%|████████  | 12/15 [08:57<02:14, 44.73s/it]
+
+batchnorm_train_acc:0.9685 batchnorm_test_acc:0.4860
+ 87%|████████▋ | 13/15 [09:41<01:29, 44.66s/it]
+
+batchnorm_train_acc:0.9852 batchnorm_test_acc:0.4865
+ 93%|█████████▎| 14/15 [10:26<00:44, 44.64s/it]
+
+batchnorm_train_acc:0.9919 batchnorm_test_acc:0.4916
+100%|██████████| 15/15 [11:11<00:00, 44.74s/it]
+
+batchnorm_train_acc:0.9936 batchnorm_test_acc:0.4879
+==================================================
+current_batch_size: 32 - group_norm
+==================================================
+  7%|▋         | 1/15 [00:36<08:33, 36.68s/it]
+groupnorm_train_acc:0.1029 groupnorm_test_acc:0.1559
+
+ 13%|█▎        | 2/15 [01:13<07:54, 36.52s/it]
+groupnorm_train_acc:0.2071 groupnorm_test_acc:0.2380
+
+ 20%|██        | 3/15 [01:49<07:17, 36.49s/it]
+groupnorm_train_acc:0.2769 groupnorm_test_acc:0.2926
+
+ 27%|██▋       | 4/15 [02:26<06:41, 36.48s/it]
+groupnorm_train_acc:0.3368 groupnorm_test_acc:0.3439
+
+ 33%|███▎      | 5/15 [03:02<06:04, 36.45s/it]
+groupnorm_train_acc:0.3959 groupnorm_test_acc:0.3706
+
+ 40%|████      | 6/15 [03:38<05:27, 36.43s/it]
+groupnorm_train_acc:0.4512 groupnorm_test_acc:0.3844
+
+ 47%|████▋     | 7/15 [04:15<04:51, 36.41s/it]
+groupnorm_train_acc:0.5083 groupnorm_test_acc:0.4090
+
+ 53%|█████▎    | 8/15 [04:51<04:15, 36.46s/it]
+groupnorm_train_acc:0.5744 groupnorm_test_acc:0.4099
+
+ 60%|██████    | 9/15 [05:28<03:39, 36.52s/it]
+groupnorm_train_acc:0.6497 groupnorm_test_acc:0.4221
+
+ 67%|██████▋   | 10/15 [06:05<03:02, 36.59s/it]
+groupnorm_train_acc:0.7393 groupnorm_test_acc:0.4241
+
+ 73%|███████▎  | 11/15 [06:41<02:26, 36.57s/it]
+groupnorm_train_acc:0.8429 groupnorm_test_acc:0.4275
+
+ 80%|████████  | 12/15 [07:18<01:49, 36.56s/it]
+groupnorm_train_acc:0.9274 groupnorm_test_acc:0.4394
+
+ 87%|████████▋ | 13/15 [07:54<01:13, 36.55s/it]
+groupnorm_train_acc:0.9712 groupnorm_test_acc:0.4385
+
+ 93%|█████████▎| 14/15 [08:31<00:36, 36.52s/it]
+groupnorm_train_acc:0.9862 groupnorm_test_acc:0.4390
+
+100%|██████████| 15/15 [09:07<00:00, 36.52s/it]
+groupnorm_train_acc:0.9906 groupnorm_test_acc:0.4396
+
+==================================================
+current_batch_size: 32 - batch_norm
+==================================================
+  7%|▋         | 1/15 [00:36<08:25, 36.10s/it]
+
+batchnorm_train_acc:0.1690 batchnorm_test_acc:0.2594
+ 13%|█▎        | 2/15 [01:12<07:50, 36.22s/it]
+
+batchnorm_train_acc:0.3077 batchnorm_test_acc:0.3376
+ 20%|██        | 3/15 [01:48<07:14, 36.23s/it]
+
+batchnorm_train_acc:0.3982 batchnorm_test_acc:0.4040
